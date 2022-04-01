@@ -1,0 +1,23 @@
+{
+  "name": "cortex_scan_web",
+  "version": "1.8.0",
+  "description": "Code Corporation Web SDK Cortex Scan Sample Web Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Code Corporation",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1",
+    "iconv-lite": "^0.5.1",
+    "jimp": "^0.9.5",
+    "pkgcloud": "^2.2.0",
+    "ws": "^7.2.3"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  }
+}

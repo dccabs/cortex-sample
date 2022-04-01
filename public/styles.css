@@ -1,0 +1,140 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+    background-color:#ffffff;
+    text-align: center;
+}
+
+header {
+    background-color:#e1e1e1;
+    padding: 30px;
+}
+
+table{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-bottom: 300px;
+}
+
+#resultTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #414042;
+    color: white;
+}
+
+#resultTable td, #resultTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#showVideo, #div3{
+    display: block;
+    text-align: center;
+}
+
+#showVideo{
+    margin-left: 45%;
+}
+
+#videoContainer{
+    padding-top: 50px;
+}
+
+#getPreviewButton{
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+
+#startVideoCapturingButton{
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+}
+
+input[type="range"] {
+    width:400px;
+}
+
+.sticky-sidebar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.dropdown-btn.active{
+    background-color: #666;
+    color: white;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #e1e1e1; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover .dropdown-btn:hover{
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+  .dropdown-container {
+  display: none;
+  /* background-color: #262626; */
+  padding-left: 8px;
+}
+  
+.dropdown-btn{
+    /* display: block; */
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+}
+ 
